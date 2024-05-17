@@ -1,6 +1,7 @@
 import { Separator } from '@radix-ui/react-separator'
 import { IconHome, IconPizza, IconToolsKitchen2 } from '@tabler/icons-react'
 
+import { AccountMenu } from './account-menu'
 import { NavLink } from './nav-link'
 import { ThemeToggle } from './theme/theme-toggle'
 
@@ -26,6 +27,7 @@ export function Header() {
 
         <div className="ml-auto flex items-center gap-2">
           <ThemeToggle />
+          <AccountMenu />
         </div>
       </div>
     </div>
