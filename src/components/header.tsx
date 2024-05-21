@@ -1,9 +1,9 @@
-import { Separator } from '@radix-ui/react-separator'
 import { IconHome, IconPizza, IconToolsKitchen2 } from '@tabler/icons-react'
 
 import { AccountMenu } from './account-menu'
 import { NavLink } from './nav-link'
 import { ThemeToggle } from './theme/theme-toggle'
+import { Separator } from './ui/separator'
 
 export function Header() {
   return (
